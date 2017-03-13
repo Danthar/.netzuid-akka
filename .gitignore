@@ -246,3 +246,34 @@ ModelManifest.xml
 PerfResults/
 OctoPackages/
 bin/
+/Seed node (lighthouse)/Topshelf.NLog.dll
+/Seed node (lighthouse)/Topshelf.dll
+/Seed node (lighthouse)/System.Collections.Immutable.xml
+/Seed node (lighthouse)/System.Collections.Immutable.dll
+/Seed node (lighthouse)/NLog.xml
+/Seed node (lighthouse)/NLog.dll
+/Seed node (lighthouse)/NLog.config
+/Seed node (lighthouse)/Newtonsoft.Json.xml
+/Seed node (lighthouse)/Newtonsoft.Json.dll
+/Seed node (lighthouse)/Lighthouse.vshost.exe.manifest
+/Seed node (lighthouse)/Lighthouse.vshost.exe.config
+/Seed node (lighthouse)/Lighthouse.vshost.exe
+/Seed node (lighthouse)/Lighthouse.exe.config
+/Seed node (lighthouse)/Lighthouse.exe
+/Seed node (lighthouse)/Hyperion.dll
+/Seed node (lighthouse)/Helios.dll
+/Seed node (lighthouse)/Google.ProtocolBuffers.xml
+/Seed node (lighthouse)/Google.ProtocolBuffers.Serialization.xml
+/Seed node (lighthouse)/Google.ProtocolBuffers.Serialization.dll
+/Seed node (lighthouse)/Google.ProtocolBuffers.dll
+/Seed node (lighthouse)/Akka.xml
+/Seed node (lighthouse)/Akka.Serialization.Hyperion.dll
+/Seed node (lighthouse)/Akka.Remote.xml
+/Seed node (lighthouse)/Akka.Remote.dll
+/Seed node (lighthouse)/Akka.Logger.NLog.xml
+/Seed node (lighthouse)/Akka.Logger.NLog.dll
+/Seed node (lighthouse)/Akka.dll
+/Seed node (lighthouse)/Akka.Cluster.xml
+/Seed node (lighthouse)/Akka.Cluster.Tools.xml
+/Seed node (lighthouse)/Akka.Cluster.Tools.dll
+/Seed node (lighthouse)/Akka.Cluster.dll
