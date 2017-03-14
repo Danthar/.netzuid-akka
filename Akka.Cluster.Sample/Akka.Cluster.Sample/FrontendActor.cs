@@ -26,16 +26,16 @@ namespace Akka.Cluster.Sample.Frontend
         {
             Cluster.Subscribe(Self, new[] {typeof(ClusterEvent.MemberUp)});
 
-            if (Context.Child("backend").Equals(ActorRefs.Nobody))
+            if (Context.Child("worker").Equals(ActorRefs.Nobody))
             {
                 backendRouter = Context.ActorOf(
-                    Props.Create(() => new BackendActor())
+                    Props.Create(() => new WorkerActor())
                         .WithRouter(FromConfig.Instance),
-                    "backend");
+                    "worker");
             }
             else //this would only enter when the frontend actor restarts
             {
-                backendRouter = Context.Child("backend");
+                backendRouter = Context.Child("worker");
             }
 
             base.PreStart();

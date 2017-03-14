@@ -80,7 +80,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackendActor.cs" />
+    <Compile Include="WorkerActor.cs" />
     <Compile Include="CommandComplete.cs" />
     <Compile Include="FrontendCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -5,12 +5,12 @@ using Akka.Logger.Serilog;
 
 namespace Akka.Cluster.Sample.IO
 {
-    public class BackendActor : ReceiveActor
+    public class WorkerActor : ReceiveActor
     {
         private Akka.Cluster.Cluster Cluster = Akka.Cluster.Cluster.Get(Context.System);
         private ILoggingAdapter logger = Context.GetLogger(new SerilogLogMessageFormatter());
 
-        public BackendActor()
+        public WorkerActor()
         {
             Receive<FrontendCommand>(cmd =>
             {
