@@ -45,3 +45,6 @@ The HOCON config then would look like this:
 			}
 		}
 
+
+
+If you wish to learn more about Akka.NET check out our website at http://getakka.net, go to the github repository https://github.com/akkadotnet/ or follow the self-paced bootcamp by Petabridge on https://petabridge.com/bootcamp/
